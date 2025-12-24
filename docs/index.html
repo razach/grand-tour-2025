@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Hero Section -->
-    <header class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/hero.png');">
+    <header class="hero"
+        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/hero.png');">
         <div class="hero-content">
             <h1>The Grand Tour</h1>
             <p class="subtitle">Bourbon, Bluegrass, and the Open Road</p>
@@ -24,7 +29,8 @@
     <!-- Intro -->
     <section class="container intro">
         <h2>The Vibe</h2>
-        <p>A spontaneous, high-fidelity road trip. No rigid schedules, just good music, scenic drives, and the best bourbon in the world. We're taking the Model 3 on a winter run through the heart of the South.</p>
+        <p>A spontaneous, high-fidelity road trip. No rigid schedules, just good music, scenic drives, and the best
+            bourbon in the world. We're taking the Model 3 on a winter run through the heart of the South.</p>
         <div class="stats-grid">
             <div class="stat-card">
                 <h3>4 Days</h3>
@@ -41,11 +47,19 @@
         </div>
     </section>
 
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>The Route</h2>
+            <div id="map" style="height: 500px; width: 100%; border-radius: 12px;"></div>
+        </div>
+    </section>
+
     <!-- Itinerary -->
     <section id="itinerary" class="timeline-section">
         <div class="container">
             <h2>The Itinerary</h2>
-            
+
             <!-- Day 1 -->
             <div class="day-card">
                 <div class="day-header">
@@ -142,8 +156,8 @@
                 </div>
             </div>
 
-             <!-- Day 4 -->
-             <div class="day-card">
+            <!-- Day 4 -->
+            <div class="day-card">
                 <div class="day-header">
                     <h3>Day 4: The Return</h3>
                     <span class="date">Monday, Dec 29</span>
@@ -179,5 +193,11 @@
         <p>Built with ❤️ for the Zacharia Bros Road Trip 2025</p>
     </footer>
 
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/map.js"></script>
+
 </body>
+
 </html>
