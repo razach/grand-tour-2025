@@ -51,8 +51,8 @@
 ### Day 3: Sunday Dec 28 - The Scenic Sunday
 *   **09:00 AM EST**: Depart Louisville.
 *   **10:00 AM EST**: Arrive **Buffalo Trace** (Frankfort).
-    *   *Priority*: Gift Shop allocation line.
-    *   *Explore*: Campus walk.
+    *   *Note*: Visitor Center/Tours open at **11:00 AM** on Sundays. Arriving early helps with the gift shop line.
+    *   *Explore*: Campus walk while waiting.
 *   **12:00 PM EST**: Lunch @ **The Stave** (Millville).
 *   **01:30 PM EST**: **Castle & Key Distillery** (Frankfort).
     *   *Highlight*: The grounds and sunken garden are stunning (Old Taylor Distillery).
@@ -82,9 +82,12 @@
 
 ## 🏨 Action Items
 1.  **Book Nashville Hotel** (Fri Dec 26):
-    *   **Option A**: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (The Gulch - Trendy, Luxury).
+    *   **Option A**: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (The Gulch - Trendy, Luxury). **Note**: Valet EV Charging available.
     *   **Option B**: [Union Station Hotel, Autograph Collection](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Broadway - Historic).
 2.  **Book Louisville Hotel** (Sat Dec 27 & Sun Dec 28):
-    *   **Option A**: [Hotel Distil, Autograph Collection](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Whiskey Row - Evaluation: High).
+    *   **Option A**: [Hotel Distil, Autograph Collection](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Whiskey Row - Evaluation: High). **Note**: Valet EV Charging available ($50/night).
     *   **Option B**: [AC Hotel Louisville Downtown](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/) (NuLu - Location is perfect for dinner spots).
-3.  **Charge Car**: Ensure 100% for Friday morning departure.
+3.  **Book Tours IMMEDIATELY**:
+    *   **Jack Daniel's**: High demand. Book for Fri Dec 26 ASAP.
+    *   **Heaven Hill "You Do Bourbon"**: Unique experience, sells out fast. Book for Sat Dec 27.
+4.  **Charge Car**: Ensure 100% for Friday morning departure.
