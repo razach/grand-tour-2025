@@ -22,6 +22,7 @@
 *   **12:45 PM EST**: Depart Chattanooga.
 *   **01:15 PM CST**: Arrive **Jack Daniel's Distillery** (Lynchburg, TN).
     *   *Drive*: ~1.5 hours from Chattanooga (detour south).
+    *   *Lunch Option*: **Barrelhouse BBQ** (Famous for "Grilled Cheese on Crack") or **Miss Mary Bobo's** (Reservations needed).
     *   *Activity*: Walk-in / Tour (Book in advance if possible) or just grab a bottle at the White Rabbit Bottle Shop.
 *   **03:15 PM CST**: Depart Lynchburg.
 *   **04:45 PM CST**: Arrive **Nashville**.
@@ -80,6 +81,10 @@
 *   **Leg 4**: Louisville -> Ringgold/Chatt (220 mi). **Needs a stop**. Probably stopping in Athens, TN or Cleveland, TN just to be safe, or big charge in Knoxville.
 
 ## 🏨 Action Items
-1.  **Book Nashville Hotel** (Fri Dec 26).
-2.  **Book Louisville Hotel** (Sat Dec 27 & Sun Dec 28).
+1.  **Book Nashville Hotel** (Fri Dec 26):
+    *   **Option A**: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (The Gulch - Trendy, Luxury).
+    *   **Option B**: [Union Station Hotel, Autograph Collection](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Broadway - Historic).
+2.  **Book Louisville Hotel** (Sat Dec 27 & Sun Dec 28):
+    *   **Option A**: [Hotel Distil, Autograph Collection](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Whiskey Row - Evaluation: High).
+    *   **Option B**: [AC Hotel Louisville Downtown](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/) (NuLu - Location is perfect for dinner spots).
 3.  **Charge Car**: Ensure 100% for Friday morning departure.
