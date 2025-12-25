@@ -91,3 +91,20 @@
     *   **Jack Daniel's**: High demand. Book for Fri Dec 26 ASAP.
     *   **Heaven Hill "You Do Bourbon"**: Unique experience, sells out fast. Book for Sat Dec 27.
 4.  **Charge Car**: Ensure 100% for Friday morning departure.
+
+## 🍔 Food & Drink Shortlist
+*   **The Road**:
+    *   [Barrelhouse BBQ](https://www.barrelhousebbq.com/) (Lynchburg)
+    *   [The Kitchen Table](https://www.visitthekitchentable.com/) (Jim Beam)
+*   **Louisville**:
+    *   [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) (High End)
+    *   [Mayan Cafe](https://mayancafelouisville.com/) (NuLu Classic)
+    *   [Bar Vetti](https://barvetti.com/) (Pizza/Pasta)
+
+## 🎒 Packing List
+*   ✅ Warm Layers (Coats/Scarves)
+*   ✅ Smart Casual Outfit (Dinner)
+*   ✅ Cooler (For Bourbon haul)
+*   ✅ Tesla Mobile Connector
+*   ✅ Spotify Offline Playlist
+*   ✅ Water/Snacks for road

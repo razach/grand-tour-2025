@@ -1,0 +1,5 @@
+google-generativeai
+click
+rich
+python-dotenv
+jinja2
