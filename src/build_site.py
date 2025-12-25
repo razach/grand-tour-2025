@@ -144,9 +144,9 @@ def parse_markdown_to_data(lines):
     
     current_list = None
     
-    for line in lines:
-        line = line.strip()
-        
+    for raw_line in lines:
+        line = raw_line.strip()
+            
         # Day Header
         match = re.match(r'### (Day \d+): (.+?) - (.+)', line)
         if match:
@@ -161,26 +161,55 @@ def parse_markdown_to_data(lines):
             current_list = None # Stop capturing shortlist
             continue
             
-        # Time Block
-        match = re.match(r'\*   \*\*(.+?)\*\*: (.+)', line)
-        if match and current_day:
-            time, title = match.groups()
-            # Clean bold markers from title
-            title = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', title)
-            current_day['items'].append({
-                'time': time,
-                'title': title,
-                'notes': []
-            })
-            continue
+        # Determine indentation level
+        indent_level = len(raw_line) - len(raw_line.lstrip())
+        is_top_level = indent_level == 0
 
-        # Notes
-        if line.startswith('    *   ') and current_day and current_day['items']:
-            note_raw = line.replace('    *   ', '').replace('*', '') 
+        # Time Block (Must be top level)
+        if is_top_level:
+            match = re.match(r'\*   \*\*(.+?)\*\*: (.+)', line.strip())
+            if match and current_day:
+                time, title = match.groups()
+                
+                # Formatting for Special Items
+                title_class = ""
+                if "DECISION POINT" in title:
+                    title = title.replace("DECISION POINT:", "").strip()
+                    # Clean remaining bold markers
+                    title = re.sub(r'\*\*(.*?)\*\*', r'\1', title)
+                    title = f'<span style="color: #e67e22; font-weight: bold;">⚠️ DECISION: {title}</span>'
+                elif "PRIORITY ACTION" in title:
+                     title = title.replace("PRIORITY ACTION:", "").strip()
+                     # Clean remaining bold markers
+                     title = re.sub(r'\*\*(.*?)\*\*', r'\1', title)
+                     title = f'<span style="color: #d35400; font-weight: bold;">🔥 ACTION: {title}</span>'
+                else:
+                     # Clean bold markers from standard titles
+                     title = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', title)
+    
+                current_day['items'].append({
+                    'time': time,
+                    'title': title,
+                    'notes': []
+                })
+                continue
+
+        # Notes (including nested lists for Options)
+        # Check keys for indentation
+        if indent_level > 0 and current_day and current_day['items']:
+            note_raw = line.strip().lstrip('*').strip() 
+            
+            # Format Links
+            note_raw = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2" target="_blank">\1</a>', note_raw)
+            # Format Bold
+            note_raw = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', note_raw)
+            
             # Detect labels
-            if ':' in note_raw:
-                label, text = note_raw.split(':', 1)
-                current_day['items'][-1]['notes'].append({'label': label.strip(), 'text': text.strip()})
+            if ':' in note_raw and not "http" in note_raw: # Avoid splitting URLs
+                parts = note_raw.split(':', 1)
+                label = parts[0].strip()
+                text = parts[1].strip()
+                current_day['items'][-1]['notes'].append({'label': label, 'text': text})
             else:
                 current_day['items'][-1]['notes'].append({'text': note_raw})
             continue

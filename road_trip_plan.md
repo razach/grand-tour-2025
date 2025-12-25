@@ -1,110 +1,75 @@
 # Bourbon Trail "Grand Tour" Road Trip Plan
-**Dates**: Friday Dec 26, 2025 - Jan 1, 2026
+**Dates**: Dec 25, 2025 - Dec 29, 2025
 **Travelers**: 2 (User + Rohan)
 **Vehicle**: 2023 Tesla Model 3 RWD (LFP Battery)
-**Origin**: 101 La Rue Pl NW, Atlanta, GA
-
-## � Feasibility Check (Time Estimates)
-*   **Pacing**: Moderate. Getting up by 9 AM is key.
-*   **Time Zones**:
-    *   ATL (EST) -> NASH (CST): **Gain 1 Hour** on Day 1.
-    *   NASH (CST) -> KY (EST): **Lose 1 Hour** on Day 2.
-*   **Driving**: Total ~13-14 hours over 4 days. Very manageable split nicely.
 
 ---
 
 ## 📅 Detailed Schedule
 
+### Day 0: Thursday Dec 25 - The Prep (Tonight)
+*   **06:00 PM EST**: **Return from Party**.
+*   **06:15 PM EST**: **Charge Car** to 100%.
+    *   *Note*: Ensure mobile connector is in the trunk.
+*   **06:30 PM EST**: **Packing Session** (See list below).
+    *   *Weather Forecast*: **Rainy & Mild** (Highs 60s, Lows 40s). Bring rain jackets and waterproof shoes.
+*   **08:00 PM EST**: **DECISION POINT: Nashville Hotel** (Book Now).
+    *   *Option A*: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (Valet EV Charging). Trendy/Gulch.
+    *   *Option B*: [Union Station Hotel](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Historic). Broadway.
+*   **08:30 PM EST**: **DECISION POINT: Louisville Hotel** (Book Now).
+    *   *Option A*: [Hotel Distil](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Valet EV Charging). Whiskey Row.
+    *   *Option B*: [AC Hotel NuLu](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/). East Market.
+*   **09:00 PM EST**: **PRIORITY ACTION: Book Tours**.
+    *   **Book**: [Jack Daniel's Distillery](https://www.jackdaniels.com/en-us/visit-us) for Dec 26 Afternoon.
+    *   **Book**: [Heaven Hill "You Do Bourbon"](https://heavenhilldistillery.com/) for Dec 27 Afternoon.
+
 ### Day 1: Friday Dec 26 - The Departure
 *   **10:30 AM EST**: Depart Atlanta.
 *   **12:15 PM EST**: Arrive **Chattanooga** (Supercharger).
-    *   *Stop*: 30 mins. Quick Charge/Snack.
-*   **12:45 PM EST**: Depart Chattanooga.
+    *   *Action*: Charge 30 mins.
 *   **01:15 PM CST**: Arrive **Jack Daniel's Distillery** (Lynchburg, TN).
-    *   *Drive*: ~1.5 hours from Chattanooga (detour south).
-    *   *Lunch Option*: **Barrelhouse BBQ** (Famous for "Grilled Cheese on Crack") or **Miss Mary Bobo's** (Reservations needed).
-    *   *Activity*: Walk-in / Tour (Book in advance if possible) or just grab a bottle at the White Rabbit Bottle Shop.
-*   **03:15 PM CST**: Depart Lynchburg.
+    *   *Lunch Decision*:
+        *   **Option A**: [Barrelhouse BBQ](https://www.barrelhousebbq.com/) ("Grilled Cheese on Crack").
+        *   **Option B**: Miss Mary Bobo's (Family style, res needed).
 *   **04:45 PM CST**: Arrive **Nashville**.
-    *   *Status*: Check-in, freshen up.
-*   **06:00 PM CST**: Explore. Broadway wander or Pinewood Social.
-*   **07:30 PM CST**: Dinner (Reservation recommended).
-*   **Overnight**: Nashville Hotel (Charge car to 100%).
+    *   *Status*: Check-in.
+*   **07:30 PM CST**: **DECISION POINT: Dinner**.
+    *   *Option A*: **Martin's BBQ** (Casual, legendary).
+    *   *Option B*: **Skull's Rainbow Room** (Jazz, requires reservation).
 
 ### Day 2: Saturday Dec 27 - Into the Barrel
-*   **09:00 AM CST**: Breakfast in Nashville.
 *   **10:30 AM CST**: Depart Nashville.
-    *   *Drive*: 2.5 hours to Clermont/Bardstown.
-    *   *Time Change*: **Lose 1 Hour** (CST -> EST).
-*   **02:00 PM EST**: Arrive **Jim Beam American Stillhouse** (Clermont).
-    *   *Activity*: Walk-in tasting or Lunch at "The Kitchen Table".
-*   **03:30 PM EST**: Drive to **Bardstown** (20 mins).
+*   **12:45 PM EST**: Arrive **Jim Beam American Stillhouse**.
+    *   *Lunch*: [The Kitchen Table](https://www.visitthekitchentable.com/) (On-site restaurant).
 *   **04:00 PM EST**: **Heaven Hill Bourbon Experience**.
-    *   *Activity*: "You Do Bourbon" experience or Connoisseur Tasting (Last tours usually 4-5 PM).
-    *   *Explore*: Quick walk around downtown Bardstown.
-*   **06:00 PM EST**: Arrive **Louisville**. Check-in.
-*   **07:30 PM EST**: Evening in **NuLu / East Market District**.
-    *   *Visit*: **The Whistle Pig Vault** (403 E Market St) OR **The Last Refuge** (600 E Market St - Bob Dylan's place).
-    *   *Dinner*: Mayan Cafe, Bar Vetti, or La Bodeguita de Mima.
-*   **Overnight**: Louisville.
+    *   *Action*: "You Do Bourbon" Tour (Booked on Day 0).
+*   **07:30 PM EST**: **DECISION POINT: Louisville Evening**.
+    *   *Drinks*: **The Whistle Pig Vault** OR **The Last Refuge** (Bob Dylan's place).
+    *   *Dinner*:
+        *   A: [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) (Upscale).
+        *   B: [Mayan Cafe](https://mayancafelouisville.com/) (NuLu favorite).
 
 ### Day 3: Sunday Dec 28 - The Scenic Sunday
-*   **09:00 AM EST**: Depart Louisville.
 *   **10:00 AM EST**: Arrive **Buffalo Trace** (Frankfort).
-    *   *Note*: Visitor Center/Tours open at **11:00 AM** on Sundays. Arriving early helps with the gift shop line.
-    *   *Explore*: Campus walk while waiting.
+    *   *Note*: Opens 11 AM Sunday. Get in allocation line.
 *   **12:00 PM EST**: Lunch @ **The Stave** (Millville).
-*   **01:30 PM EST**: **Castle & Key Distillery** (Frankfort).
-    *   *Highlight*: The grounds and sunken garden are stunning (Old Taylor Distillery).
-*   **03:00 PM EST**: Scenic Drive **Old Frankfort Pike**.
-*   **03:30 PM EST**: Arrive **Woodford Reserve** (Versailles).
-    *   *Activity*: Cocktail at the bar, view the pot stills.
-*   **05:00 PM EST**: Drive back to Louisville.
-*   **06:30 PM EST**: **Angel's Envy Distillery** (Louisville - Main St).
-    *   *Status*: Check for evening hours/bar access, or admire the architecture.
-*   **08:00 PM EST**: **The Last Refuge** or **Whistle Pig** (Whichever wasn't hit yesterday).
-*   **Overnight**: Louisville.
+*   **01:30 PM EST**: **Castle & Key Distillery**.
+    *   *Activity*: Walk the sunken gardens.
+*   **06:30 PM EST**: **Angel's Envy Distillery**.
+    *   *Check*: Evening bar hours.
 
-### Day 4: Return to Atlanta (The Scenic Return)
+### Day 4: Monday Dec 29 - The Return
 *   **10:00 AM EST**: Depart Louisville.
-*   **02:00 PM EST**: Arrive **Knoxville / Chattanooga**.
-    *   *Stop*: **Chattanooga North Shore**.
-    *   *Activity*: Lunch (Milk & Honey) + Walnut St Bridge Walk + Supercharge.
+*   **02:00 PM EST**: **Chattanooga Stop**.
+    *   *Activity*: Walk Walnut St Bridge + Milk & Honey.
 *   **05:30 PM EST**: Arrive **Atlanta**.
 
 ---
 
-## 🔌 EV Logistics Strategy
-*   **Winter Reality**: Expect **180-200 miles** highway range.
-*   **Leg 1**: ATL -> Chattanooga (118 mi) -> Nashville (130 mi). Easy split.
-*   **Leg 2**: Nash -> Jim Beam (135 mi). Easy single leg if charging at destination.
-*   **Leg 4**: Louisville -> Ringgold/Chatt (220 mi). **Needs a stop**. Probably stopping in Athens, TN or Cleveland, TN just to be safe, or big charge in Knoxville.
-
-## 🏨 Action Items
-1.  **Book Nashville Hotel** (Fri Dec 26):
-    *   **Option A**: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (The Gulch - Trendy, Luxury). **Note**: Valet EV Charging available.
-    *   **Option B**: [Union Station Hotel, Autograph Collection](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Broadway - Historic).
-2.  **Book Louisville Hotel** (Sat Dec 27 & Sun Dec 28):
-    *   **Option A**: [Hotel Distil, Autograph Collection](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Whiskey Row - Evaluation: High). **Note**: Valet EV Charging available ($50/night).
-    *   **Option B**: [AC Hotel Louisville Downtown](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/) (NuLu - Location is perfect for dinner spots).
-3.  **Book Tours IMMEDIATELY**:
-    *   **Jack Daniel's**: High demand. Book for Fri Dec 26 ASAP.
-    *   **Heaven Hill "You Do Bourbon"**: Unique experience, sells out fast. Book for Sat Dec 27.
-4.  **Charge Car**: Ensure 100% for Friday morning departure.
-
-## 🍔 Food & Drink Shortlist
-*   **The Road**:
-    *   [Barrelhouse BBQ](https://www.barrelhousebbq.com/) (Lynchburg)
-    *   [The Kitchen Table](https://www.visitthekitchentable.com/) (Jim Beam)
-*   **Louisville**:
-    *   [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) (High End)
-    *   [Mayan Cafe](https://mayancafelouisville.com/) (NuLu Classic)
-    *   [Bar Vetti](https://barvetti.com/) (Pizza/Pasta)
-
-## 🎒 Packing List
-*   ✅ Warm Layers (Coats/Scarves)
-*   ✅ Smart Casual Outfit (Dinner)
-*   ✅ Cooler (For Bourbon haul)
-*   ✅ Tesla Mobile Connector
-*   ✅ Spotify Offline Playlist
-*   ✅ Water/Snacks for road
+## 🎒 Packing List (Weather Aware)
+*   ✅ **Rain Gear**: Light rain jacket/umbrella (Rain forecast for Fri/Sat/Sun).
+*   ✅ **Footwear**: Comfortable waterproof walking shoes (Distillery grounds can be muddy).
+*   ✅ **Layers**: Temps 50s-60s. Sweater/Fleece needed.
+*   ✅ Smart Casual Outfit (For Dinner/Hotel Distil).
+*   ✅ Cooler (Empty, for Bourbon haul).
+*   ✅ Tesla Mobile Connector.

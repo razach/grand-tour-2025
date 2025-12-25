@@ -1,0 +1,73 @@
+Reading road_trip_plan.md...
+DEBUG: '# Bourbon Trail "Grand Tour" Road Trip Plan' Level: 0
+DEBUG: '**Dates**: Dec 25, 2025 - Dec 29, 2025' Level: 0
+DEBUG: '**Travelers**: 2 (User + Rohan)' Level: 0
+DEBUG: '**Vehicle**: 2023 Tesla Model 3 RWD (LFP Battery)' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '---' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '## 📅 Detailed Schedule' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '*   **06:00 PM EST**: **Return from Party**.' Level: 0
+DEBUG: '*   **06:15 PM EST**: **Charge Car** to 100%.' Level: 0
+DEBUG: '*   *Note*: Ensure mobile connector is in the trunk.' Level: 0
+DEBUG: '*   **06:30 PM EST**: **Packing Session** (See list below).' Level: 0
+DEBUG: '*   *Weather Forecast*: **Rainy & Mild** (Highs 60s, Lows 40s). Bring rain jackets and waterproof shoes.' Level: 0
+DEBUG: '*   **08:00 PM EST**: **DECISION POINT: Nashville Hotel** (Book Now).' Level: 0
+DEBUG: '*   *Option A*: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (Valet EV Charging). Trendy/Gulch.' Level: 0
+DEBUG: '*   *Option B*: [Union Station Hotel](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Historic). Broadway.' Level: 0
+DEBUG: '*   **08:30 PM EST**: **DECISION POINT: Louisville Hotel** (Book Now).' Level: 0
+DEBUG: '*   *Option A*: [Hotel Distil](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Valet EV Charging). Whiskey Row.' Level: 0
+DEBUG: '*   *Option B*: [AC Hotel NuLu](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/). East Market.' Level: 0
+DEBUG: '*   **09:00 PM EST**: **PRIORITY ACTION: Book Tours**.' Level: 0
+DEBUG: '*   **Book**: [Jack Daniel's Distillery](https://www.jackdaniels.com/en-us/visit-us) for Dec 26 Afternoon.' Level: 0
+DEBUG: '*   **Book**: [Heaven Hill "You Do Bourbon"](https://heavenhilldistillery.com/) for Dec 27 Afternoon.' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '*   **10:30 AM EST**: Depart Atlanta.' Level: 0
+DEBUG: '*   **12:15 PM EST**: Arrive **Chattanooga** (Supercharger).' Level: 0
+DEBUG: '*   *Action*: Charge 30 mins.' Level: 0
+DEBUG: '*   **01:15 PM CST**: Arrive **Jack Daniel's Distillery** (Lynchburg, TN).' Level: 0
+DEBUG: '*   *Lunch Decision*:' Level: 0
+DEBUG: '*   **Option A**: [Barrelhouse BBQ](https://www.barrelhousebbq.com/) ("Grilled Cheese on Crack").' Level: 0
+DEBUG: '*   **Option B**: Miss Mary Bobo's (Family style, res needed).' Level: 0
+DEBUG: '*   **04:45 PM CST**: Arrive **Nashville**.' Level: 0
+DEBUG: '*   *Status*: Check-in.' Level: 0
+DEBUG: '*   **07:30 PM CST**: **DECISION POINT: Dinner**.' Level: 0
+DEBUG: '*   *Option A*: **Martin's BBQ** (Casual, legendary).' Level: 0
+DEBUG: '*   *Option B*: **Skull's Rainbow Room** (Jazz, requires reservation).' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '*   **10:30 AM CST**: Depart Nashville.' Level: 0
+DEBUG: '*   **12:45 PM EST**: Arrive **Jim Beam American Stillhouse**.' Level: 0
+DEBUG: '*   *Lunch*: [The Kitchen Table](https://www.visitthekitchentable.com/) (On-site restaurant).' Level: 0
+DEBUG: '*   **04:00 PM EST**: **Heaven Hill Bourbon Experience**.' Level: 0
+DEBUG: '*   *Action*: "You Do Bourbon" Tour (Booked on Day 0).' Level: 0
+DEBUG: '*   **07:30 PM EST**: **DECISION POINT: Louisville Evening**.' Level: 0
+DEBUG: '*   *Drinks*: **The Whistle Pig Vault** OR **The Last Refuge** (Bob Dylan's place).' Level: 0
+DEBUG: '*   *Dinner*:' Level: 0
+DEBUG: '*   A: [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) (Upscale).' Level: 0
+DEBUG: '*   B: [Mayan Cafe](https://mayancafelouisville.com/) (NuLu favorite).' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '*   **10:00 AM EST**: Arrive **Buffalo Trace** (Frankfort).' Level: 0
+DEBUG: '*   *Note*: Opens 11 AM Sunday. Get in allocation line.' Level: 0
+DEBUG: '*   **12:00 PM EST**: Lunch @ **The Stave** (Millville).' Level: 0
+DEBUG: '*   **01:30 PM EST**: **Castle & Key Distillery**.' Level: 0
+DEBUG: '*   *Activity*: Walk the sunken gardens.' Level: 0
+DEBUG: '*   **06:30 PM EST**: **Angel's Envy Distillery**.' Level: 0
+DEBUG: '*   *Check*: Evening bar hours.' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '*   **10:00 AM EST**: Depart Louisville.' Level: 0
+DEBUG: '*   **02:00 PM EST**: **Chattanooga Stop**.' Level: 0
+DEBUG: '*   *Activity*: Walk Walnut St Bridge + Milk & Honey.' Level: 0
+DEBUG: '*   **05:30 PM EST**: Arrive **Atlanta**.' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '---' Level: 0
+DEBUG: '' Level: 0
+DEBUG: '## 🎒 Packing List (Weather Aware)' Level: 0
+DEBUG: '*   ✅ **Rain Gear**: Light rain jacket/umbrella (Rain forecast for Fri/Sat/Sun).' Level: 0
+DEBUG: '*   ✅ **Footwear**: Comfortable waterproof walking shoes (Distillery grounds can be muddy).' Level: 0
+DEBUG: '*   ✅ **Layers**: Temps 50s-60s. Sweater/Fleece needed.' Level: 0
+DEBUG: '*   ✅ Smart Casual Outfit (For Dinner/Hotel Distil).' Level: 0
+DEBUG: '*   ✅ Cooler (Empty, for Bourbon haul).' Level: 0
+DEBUG: '*   ✅ Tesla Mobile Connector.' Level: 0
+rendering template...
+Successfully generated docs/index.html
