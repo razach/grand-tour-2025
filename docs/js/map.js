@@ -23,20 +23,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Coordinates
+    // Coordinates
     const Atlanta = [33.7490, -84.3880];
     const Chat = [35.0456, -85.3097];
+    const Lynchburg = [35.2828, -86.3678]; // Jack Daniel's
     const Nashville = [36.1627, -86.7816];
+    const Clermont = [37.9304, -85.6558]; // Jim Beam
     const Bardstown = [37.8092, -85.4669];
     const Louisville = [38.2527, -85.7585];
+    const Frankfort = [38.2009, -84.8733]; // Buffalo Trace / Castle & Key
+    const Versailles = [38.0464, -84.7231]; // Woodford Reserve
     const Knoxville = [35.9606, -83.9207];
 
     const stops = [
-        { coords: Atlanta, title: "Atlanta (Start/End)", desc: "Home Base" },
-        { coords: Chat, title: "Chattanooga", desc: "Supercharger & Lunch Stop" },
-        { coords: Nashville, title: "Nashville", desc: "Night 1: Broadway & Tunes" },
-        { coords: Bardstown, title: "Bardstown", desc: "Bourbon Capital" },
-        { coords: Louisville, title: "Louisville", desc: "Urban Bourbon Trail" },
-        { coords: Knoxville, title: "Knoxville", desc: "The Scenic Return" }
+        { coords: Atlanta, title: "Atlanta", desc: "Start/End" },
+        { coords: Chat, title: "Chattanooga", desc: "Supercharger Stop" },
+        { coords: Lynchburg, title: "Jack Daniel's", desc: "Lynchburg, TN" },
+        { coords: Nashville, title: "Nashville", desc: "Night 1" },
+        { coords: Clermont, title: "Jim Beam", desc: "Clermont, KY" },
+        { coords: Bardstown, title: "Bardstown", desc: "Heaven Hill" },
+        { coords: Louisville, title: "Louisville", desc: "Nights 2 & 3" },
+        { coords: Frankfort, title: "Frankfort", desc: "Buffalo Trace & Castle/Key" },
+        { coords: Versailles, title: "Woodford Reserve", desc: "Versailles, KY" },
+        { coords: Knoxville, title: "Knoxville", desc: "Return Trip" }
     ];
 
     stops.forEach(stop => {
@@ -45,7 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Route Line
-    const routeLatLongs = [Atlanta, Chat, Nashville, Bardstown, Louisville, Knoxville, Chat, Atlanta];
+    const routeLatLongs = [
+        Atlanta, Chat, Lynchburg, Nashville, // Day 1
+        Clermont, Bardstown, Louisville, // Day 2
+        Frankfort, Versailles, Louisville, // Day 3
+        Knoxville, Chat, Atlanta // Day 4
+    ];
 
     const routeLine = L.polyline(routeLatLongs, {
         color: '#d4Af37',

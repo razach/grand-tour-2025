@@ -16,48 +16,59 @@
 ## 📅 Detailed Schedule
 
 ### Day 1: Friday Dec 26 - The Departure
-*   **11:00 AM EST**: Depart Atlanta (Late morning start).
-*   **01:00 PM EST**: Arrive **Chattanooga** (Supercharger).
-    *   *Stop*: 30-45 mins. Lunch/Charge.
-*   **01:45 PM EST**: Depart Chattanooga.
-*   **02:45 PM CST**: Arrive **Nashville** (Gain 1 hour).
+*   **10:30 AM EST**: Depart Atlanta.
+*   **12:15 PM EST**: Arrive **Chattanooga** (Supercharger).
+    *   *Stop*: 30 mins. Quick Charge/Snack.
+*   **12:45 PM EST**: Depart Chattanooga.
+*   **01:15 PM CST**: Arrive **Jack Daniel's Distillery** (Lynchburg, TN).
+    *   *Drive*: ~1.5 hours from Chattanooga (detour south).
+    *   *Activity*: Walk-in / Tour (Book in advance if possible) or just grab a bottle at the White Rabbit Bottle Shop.
+*   **03:15 PM CST**: Depart Lynchburg.
+*   **04:45 PM CST**: Arrive **Nashville**.
     *   *Status*: Check-in, freshen up.
-*   **04:00 PM CST**: Explore. Broadway wander or Pinewood Social.
-*   **07:00 PM CST**: Dinner (Reservation recommended).
+*   **06:00 PM CST**: Explore. Broadway wander or Pinewood Social.
+*   **07:30 PM CST**: Dinner (Reservation recommended).
 *   **Overnight**: Nashville Hotel (Charge car to 100%).
 
 ### Day 2: Saturday Dec 27 - Into the Barrel
-*   **09:00 AM CST**: Breakfast in Nashville (Biscuit Love/Pancake Pantry).
+*   **09:00 AM CST**: Breakfast in Nashville.
 *   **10:30 AM CST**: Depart Nashville.
     *   *Drive*: 2.5 hours to Clermont/Bardstown.
     *   *Time Change*: **Lose 1 Hour** (CST -> EST).
 *   **02:00 PM EST**: Arrive **Jim Beam American Stillhouse** (Clermont).
-    *   *Activity*: Walk-in tasting approx 1 hour + Lunch at "The Kitchen Table" on site.
-*   **04:00 PM EST**: Drive to **Bardstown** (20 mins).
-    *   *Activity*: Quick look at Willett or Heaven Hill Visitor Center (Close ~5 PM).
+    *   *Activity*: Walk-in tasting or Lunch at "The Kitchen Table".
+*   **03:30 PM EST**: Drive to **Bardstown** (20 mins).
+*   **04:00 PM EST**: **Heaven Hill Bourbon Experience**.
+    *   *Activity*: "You Do Bourbon" experience or Connoisseur Tasting (Last tours usually 4-5 PM).
+    *   *Explore*: Quick walk around downtown Bardstown.
 *   **06:00 PM EST**: Arrive **Louisville**. Check-in.
-*   **07:30 PM EST**: Dinner in NuLu (e.g., Mayan Cafe or Bar Vetti).
+*   **07:30 PM EST**: Evening in **NuLu / East Market District**.
+    *   *Visit*: **The Whistle Pig Vault** (403 E Market St) OR **The Last Refuge** (600 E Market St - Bob Dylan's place).
+    *   *Dinner*: Mayan Cafe, Bar Vetti, or La Bodeguita de Mima.
 *   **Overnight**: Louisville.
 
 ### Day 3: Sunday Dec 28 - The Scenic Sunday
 *   **09:00 AM EST**: Depart Louisville.
 *   **10:00 AM EST**: Arrive **Buffalo Trace** (Frankfort).
-    *   *Priority*: Gate opens early. Get in line for daily allocation/gift shop.
-    *   *Walk-in*: 10 AM - 12 PM. Explore campus.
-*   **12:30 PM EST**: Lunch @ **The Stave** (Millville).
-*   **02:00 PM EST**: Scenic Drive **Old Frankfort Pike**.
-*   **02:45 PM EST**: Arrive **Woodford Reserve** (Versailles).
-    *   *Activity*: Cocktail at the bar, view the pot stills (Visitor Center usually open till 4/5 PM).
-*   **04:30 PM EST**: Drive back to Louisville (or Dinner in Lexington).
-*   **Overnight**: Louisville (Relaxed evening).
+    *   *Priority*: Gift Shop allocation line.
+    *   *Explore*: Campus walk.
+*   **12:00 PM EST**: Lunch @ **The Stave** (Millville).
+*   **01:30 PM EST**: **Castle & Key Distillery** (Frankfort).
+    *   *Highlight*: The grounds and sunken garden are stunning (Old Taylor Distillery).
+*   **03:00 PM EST**: Scenic Drive **Old Frankfort Pike**.
+*   **03:30 PM EST**: Arrive **Woodford Reserve** (Versailles).
+    *   *Activity*: Cocktail at the bar, view the pot stills.
+*   **05:00 PM EST**: Drive back to Louisville.
+*   **06:30 PM EST**: **Angel's Envy Distillery** (Louisville - Main St).
+    *   *Status*: Check for evening hours/bar access, or admire the architecture.
+*   **08:00 PM EST**: **The Last Refuge** or **Whistle Pig** (Whichever wasn't hit yesterday).
+*   **Overnight**: Louisville.
 
 ### Day 4: Return to Atlanta (The Scenic Return)
-*   **10:00 AM EST**: Depart Louisville. Sleep in slightly.
+*   **10:00 AM EST**: Depart Louisville.
 *   **02:00 PM EST**: Arrive **Knoxville / Chattanooga**.
-    *   *Note*: Driving straight through to Chatt is ~4 hrs.
     *   *Stop*: **Chattanooga North Shore**.
-    *   *Activity*: Lunch (Milk & Honey) + Walnut St Bridge Walk + Supercharge (1.5 Hours total).
-*   **03:30 PM EST**: Depart Chattanooga.
+    *   *Activity*: Lunch (Milk & Honey) + Walnut St Bridge Walk + Supercharge.
 *   **05:30 PM EST**: Arrive **Atlanta**.
 
 ---
