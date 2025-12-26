@@ -310,10 +310,8 @@ def parse_markdown_to_data(lines):
         # Let's simple join for now.
         content = ""
         for item in items:
-            if "<strong>" in item and not "</a>" in item: # Heuristic for category header e.g. **Nashville**
-                 content += f'<br><strong>{item}</strong><br>'
-            else:
-                 content += f'{item}<br>'
+             # Just append the item (it already contains HTML markup from the parser)
+             content += f'{item}<br>'
         
         return f'''
             <div class="stat-card" style="flex: 1; min-width: 300px;">
