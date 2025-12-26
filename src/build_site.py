@@ -185,7 +185,8 @@ def parse_markdown_to_data(lines):
                      title = f'<span style="color: #d35400; font-weight: bold;">🔥 ACTION: {title}</span>'
                 else:
                      # Clean bold markers from standard titles
-                     title = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', title)
+                     # We wrap the whole title in <strong> in the template, so just remove markdown markers.
+                     title = title.replace('**', '')
     
                 current_day['items'].append({
                     'time': time,
@@ -205,11 +206,14 @@ def parse_markdown_to_data(lines):
             note_raw = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', note_raw)
             
             # Detect labels
-            if ':' in note_raw and not "http" in note_raw: # Avoid splitting URLs
+            colon_index = note_raw.find(':')
+            # Check if colon exists and is early (likely a label), and http is NOT in the label part
+            if colon_index != -1 and colon_index < 50 and "http" not in note_raw[:colon_index]:
                 parts = note_raw.split(':', 1)
-                label = parts[0].strip()
+                # Clean label formatting (remove italics/bold markers)
+                label_clean = parts[0].strip().replace('*', '').replace('**', '')
                 text = parts[1].strip()
-                current_day['items'][-1]['notes'].append({'label': label, 'text': text})
+                current_day['items'][-1]['notes'].append({'label': label_clean, 'text': text})
             else:
                 current_day['items'][-1]['notes'].append({'text': note_raw})
             continue
@@ -303,6 +307,9 @@ def parse_markdown_to_data(lines):
 
     # 2. Shortlist HTML
     def render_card(title, items):
+        if not items: # Skip empty lists
+             return ""
+        
         # Join items with <br> but also group them? 
         # The prompt markdown had indentation that implied grouping (City -> Items).
         # My parsing flattened them a bit.

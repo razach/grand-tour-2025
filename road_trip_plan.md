@@ -7,12 +7,18 @@
 
 ## 📅 Detailed Schedule
 
+
 ### Day 0: Thursday Dec 25 - The Prep (Tonight)
 *   **06:00 PM EST**: **Return from Party**.
 *   **06:15 PM EST**: **Charge Car** to 100%.
     *   *Note*: Ensure mobile connector is in the trunk.
-*   **06:30 PM EST**: **Packing Session** (See list below).
-    *   *Weather Forecast*: **Rainy & Mild** (Highs 60s, Lows 40s). Bring rain jackets and waterproof shoes.
+*   **06:30 PM EST**: **Packing Session** (Weather: Rain/Mild 60s).
+    *   ✅ **Rain Gear** - Light rain jacket/umbrella.
+    *   ✅ **Footwear** - Waterproof walking shoes (muddy distilleries).
+    *   ✅ **Layers** - Sweater/Fleece needed (50s-60s).
+    *   ✅ Smart Casual Outfit (For Dinner/Hotel Distil).
+    *   ✅ Cooler (Empty, for Bourbon haul).
+    *   ✅ Tesla Mobile Connector.
 *   **08:00 PM EST**: **DECISION POINT: Nashville Hotel** (Book Now).
     *   *Option A*: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (Valet EV Charging). Trendy/Gulch.
     *   *Option B*: [Union Station Hotel](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Historic). Broadway.
@@ -89,12 +95,4 @@
 *   [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) - High End
 *   [Mayan Cafe](https://mayancafelouisville.com/) - NuLu Classic
 *   [Bar Vetti](https://barvetti.com/) - Pizza/Pasta
-
-## 🎒 Packing List (Weather Aware)
-*   ✅ **Rain Gear** - Light rain jacket/umbrella (Rain forecast for Fri/Sat/Sun)
-*   ✅ **Footwear** - Comfortable waterproof walking shoes (Distillery grounds can be muddy)
-*   ✅ **Layers** - Temps 50s-60s. Sweater/Fleece needed
-*   ✅ Smart Casual Outfit (For Dinner/Hotel Distil)
-*   ✅ Cooler (Empty, for Bourbon haul)
-*   ✅ Tesla Mobile Connector
 
