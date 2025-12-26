@@ -144,6 +144,7 @@ def parse_markdown_to_data(lines):
     packing = []
     
     current_list = None
+    current_header_context = None
     
     for raw_line in lines:
         line = raw_line.strip()
@@ -258,10 +259,24 @@ def parse_markdown_to_data(lines):
             continue
 
         # Shortlists section headers (standalone bold text, not bullets)
-        if current_list is not None and not line.startswith('*') and line.startswith('**') and line.endswith('**'):
+        # Note: We check for startswith('**') first. 
+        # A bullet line usually starts with "* " or "  *", whereas a header starts immediately with "**".
+        # Even though "**" starts with "*", checking startswith('**') is specific enough for our format.
+        if current_list is not None and line.startswith('**') and line.endswith('**'):
             # This is a section header like "**Nashville (Fri Night)**"
             header_text = line.strip('*').strip()
+            # We add it as a string to be handled as a header in render_card
             current_list.append(f'<br><strong>{header_text}</strong>')
+            
+            # Store current header for context (e.g. city name)
+            # Remove parenthesis content for cleaner search query: "Nashville (Fri Night)" -> "Nashville"
+            current_header_clean = re.sub(r'\(.*?\)', '', header_text).strip()
+            # Use a slightly hacky way to attach this metadata to the list object or just track it?
+            # Since the list is simple items, we can't attach it to the list itself easily without changing structure.
+            # But we are in a simple loop. Let's just store it in a local variable `current_header_context`
+            # and use it when parsing subsequent items until a new header appears.
+            # NOTE: We need to define `current_header_context` inside the function scope first.
+            current_header_context = current_header_clean
             continue
 
         # List Items parsing (generic for all shortlists)
@@ -270,12 +285,43 @@ def parse_markdown_to_data(lines):
              if raw_line.lstrip().startswith('*   '):
                  # Remove the bullet and clean the text
                  text = raw_line.lstrip()[1:].lstrip()  # Remove leading spaces, then first char (*), then remaining spaces
-                 # Links
-                 text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2" target="_blank">\1</a>', text)
-                 # Bold
-                 text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
                  
-                 current_list.append(text)
+                 # Check for Link pattern: [Name](Url) - Desc or [Name](Url)
+                 # Regex explanation:
+                 # \[ (.*?) \]  -> Capture Name
+                 # \( (.*?) \)  -> Capture URL
+                 # \s* [-:]? \s* (.*) -> Optional separator and Capture Description
+                 link_match = re.match(r'\[(.*?)\]\((.*?)\)\s*[-:]?\s*(.*)', text)
+                 
+                 if link_match:
+                     name, url, desc = link_match.groups()
+                     
+                     search_url = None
+                     if current_list == hotels and current_header_context:
+                         # Generate Google Search URL for prices
+                         # Query: "{Hotel Name} {City} hotel prices"
+                         query = f"{name} {current_header_context} hotel prices"
+                         encoded_query = urllib.parse.quote(query)
+                         search_url = f"https://www.google.com/search?q={encoded_query}"
+                     
+                     current_list.append({
+                         'type': 'link_card',
+                         'title': name,
+                         'url': url,
+                         'desc': desc,
+                         'search_url': search_url
+                     })
+                 else:
+                     # Standard text item
+                     # Links
+                     text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2" target="_blank">\1</a>', text)
+                     # Bold
+                     text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+                     
+                     current_list.append({
+                         'type': 'text',
+                         'content': text
+                     })
 
     # --- RENDER HTML STRINGS ---
     
@@ -328,24 +374,67 @@ def parse_markdown_to_data(lines):
 
     # 2. Shortlist HTML
     def render_card(title, items):
-        if not items: # Skip empty lists
+        if not items:
              return ""
         
-        # Join items with <br> but also group them? 
-        # The prompt markdown had indentation that implied grouping (City -> Items).
-        # My parsing flattened them a bit.
-        # For a quick fix, if an item starts with <strong> it's likely a subheader (City).
-        # Let's simple join for now.
-        content = ""
+        html_parts = []
+        current_grid_open = False
+        
+        def ensure_grid(open_grid):
+            nonlocal current_grid_open
+            if open_grid and not current_grid_open:
+                html_parts.append('<div class="options-grid">')
+                current_grid_open = True
+            elif not open_grid and current_grid_open:
+                html_parts.append('</div>')
+                current_grid_open = False
+
         for item in items:
-             # Just append the item (it already contains HTML markup from the parser)
-             content += f'{item}<br>'
+            # Handle Headers (City separators)
+            if isinstance(item, str): 
+                ensure_grid(False)
+                html_parts.append(f'<div class="list-sub-header">{item}</div>')
+                
+            # Handle Items
+            elif isinstance(item, dict):
+                if item['type'] == 'link_card':
+                    ensure_grid(True)
+                    desc_html = f'<p>{item["desc"]}</p>' if item['desc'] else ''
+                    
+                    search_link_html = ""
+                    if 'search_url' in item and item['search_url']:
+                         search_link_html = f'''
+                            <div style="margin-top:0.8rem; padding-top:0.8rem; border-top:1px solid rgba(255,255,255,0.1);">
+                                <a href="{item['search_url']}" target="_blank" style="color: #bbb; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; transition: color 0.2s;">
+                                    🔍 <span style="text-decoration: underline;">Check Prices & Reviews</span>
+                                </a>
+                            </div>
+                        '''
+
+                    # New Div Structure for Link Card (replaces direct <a>)
+                    html_parts.append(f'''
+                        <div class="option-card" style="cursor: default;">
+                            <div style="display:flex; justify-content:space-between; align-items:start;">
+                                <h4 style="margin-bottom:0;"><a href="{item['url']}" target="_blank" style="text-decoration:none; color:inherit;">{item['title']} ↗</a></h4>
+                            </div>
+                            {desc_html}
+                            {search_link_html}
+                        </div>
+                    ''')
+
+                elif item['type'] == 'text':
+                     ensure_grid(False) # Break grid for simple text lists
+                     html_parts.append(f'<div class="list-item-simple">• {item["content"]}</div>')
+
+        ensure_grid(False) # Close grid
+        
+        inner_html = "".join(html_parts)
         
         return f'''
-            <div class="stat-card" style="flex: 1; min-width: 300px;">
+            <div class="stat-card" style="flex: 1; min-width: 300px; padding: 1.5rem;">
                 <h3>{title}</h3>
                 <div class="details">
-                    <p>{content}</p>
+                    {inner_html}
                 </div>
             </div>
 '''
