@@ -1,6 +1,7 @@
 import re
 import os
 from jinja2 import Environment, FileSystemLoader
+import urllib.parse
 
 # Configuration
 PLAN_FILE = 'road_trip_plan.md'
@@ -172,6 +173,8 @@ def parse_markdown_to_data(lines):
                 time, title = match.groups()
                 
                 # Formatting for Special Items
+                title_clean_text = title.replace('**', '') # Copy for map query
+                
                 title_class = ""
                 if "DECISION POINT" in title:
                     title = title.replace("DECISION POINT:", "").strip()
@@ -187,6 +190,24 @@ def parse_markdown_to_data(lines):
                      # Clean bold markers from standard titles
                      # We wrap the whole title in <strong> in the template, so just remove markdown markers.
                      title = title.replace('**', '')
+
+                # Generate Google Maps Link
+                # Heuristic: Filter out non-places and generate query
+                map_query = title_clean_text
+                prefixes = ["Arrive ", "Depart ", "Lunch @ ", "Lunch: ", "Dinner: ", "DECISION POINT: ", "PRIORITY ACTION: ", "Stop: "]
+                for p in prefixes:
+                    if map_query.startswith(p):
+                        map_query = map_query[len(p):].strip()
+                        break
+                
+                # Exclude keywords that likely aren't specific places worth mapping
+                exclude_keywords = ["Packing Session", "Return from", "Charge Car", "Book Tours", "The Prep", "Check-in"]
+                should_map = not any(k in title_clean_text for k in exclude_keywords) and len(map_query) > 3
+                
+                if should_map:
+                    encoded_query = urllib.parse.quote(map_query)
+                    map_url = f"https://www.google.com/maps/search/?api=1&query={encoded_query}"
+                    title += f' <a href="{map_url}" target="_blank" style="text-decoration:none; font-size: 0.9em;" title="View on Google Maps">📍</a>'
     
                 current_day['items'].append({
                     'time': time,

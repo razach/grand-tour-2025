@@ -12,13 +12,24 @@
 *   **06:00 PM EST**: **Return from Party**.
 *   **06:15 PM EST**: **Charge Car** to 100%.
     *   *Note*: Ensure mobile connector is in the trunk.
-*   **06:30 PM EST**: **Packing Session** (Weather: Rain/Mild 60s).
-    *   ✅ **Rain Gear** - Light rain jacket/umbrella.
-    *   ✅ **Footwear** - Waterproof walking shoes (muddy distilleries).
-    *   ✅ **Layers** - Sweater/Fleece needed (50s-60s).
-    *   ✅ Smart Casual Outfit (For Dinner/Hotel Distil).
-    *   ✅ Cooler (Empty, for Bourbon haul).
-    *   ✅ Tesla Mobile Connector.
+*   **06:30 PM EST**: **Packing Session** (Weather: Cool 40s-50s, Likely Rain).
+    *   **The Vibe**: Practical layers for day, smart casual for night.
+    *   ✅ **Outerwear**:
+        *   Waterproof Rain Jacket (Critical).
+        *   Warm Fleece or Puffer Vest (Temps drop at night).
+    *   ✅ **Footwear**:
+        *   *Day*: Waterproof boots/shoes (Distilleries are farms = mud).
+        *   *Night*: Clean leather boots or loafers (Dinner/Lounges).
+    *   ✅ **Clothing**:
+        *   Dark jeans/chinos (Versatile day-to-night).
+        *   Flannels or Oxford button-downs.
+        *   Merino wool socks (Warmth + Pad for walking).
+    *   ✅ **Road Trip Essentials**:
+        *   Tesla Mobile Connector (Must have).
+        *   Empty Cooler (For bringing bottles home).
+        *   Bubble wrap/Skins for bottle protection.
+        *   Ibuprofen & LiquidIV (Hydration is key).
+    *   ❌ **Skip**: Laptops/iPads (Digital Detox).
 *   **08:00 PM EST**: **DECISION POINT: Nashville Hotel** (Book Now).
     *   *Option A*: [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (Valet EV Charging). Trendy/Gulch.
     *   *Option B*: [Union Station Hotel](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Historic). Broadway.
