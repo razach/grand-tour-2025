@@ -234,12 +234,10 @@ def parse_markdown_to_data(lines):
 
         # List Items parsing (generic for all shortlists)
         if current_list is not None:
-             # Basic list item detection
-             if line.startswith('*   ') or line.startswith('    *   '):
-                 # Render Markdown to HTML fragment
-                 text = line
-                 # Remove bullet markers (* and leading spaces)
-                 text = re.sub(r'^\s*\*\s+', '', text)
+             # Check raw_line for bullet patterns (before stripping)
+             if raw_line.lstrip().startswith('*   '):
+                 # Remove the bullet and clean the text
+                 text = raw_line.lstrip()[1:].lstrip()  # Remove leading spaces, then first char (*), then remaining spaces
                  # Links
                  text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2" target="_blank">\1</a>', text)
                  # Bold
