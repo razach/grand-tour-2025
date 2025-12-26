@@ -64,7 +64,27 @@
     *   *Activity*: Walk Walnut St Bridge + Milk & Honey.
 *   **05:30 PM EST**: Arrive **Atlanta**.
 
+
 ---
+
+## 🏨 Hotels (Marriott Points)
+*   **Nashville (Fri Night)**:
+    *   [W Nashville](https://www.marriott.com/en-us/hotels/bnanw-w-nashville/overview/) (Gulch) - Valet EV Charging Available
+    *   [Union Station Hotel](https://www.marriott.com/en-us/hotels/bnzx-union-station-hotel-nashville-yards-autograph-collection/overview/) (Historic Broadway)
+    *   [JW Marriott](https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/overview/) (Skyline Views)
+*   **Louisville (Sat/Sun)**:
+    *   [Hotel Distil](https://www.marriott.com/en-us/hotels/sdfds-hotel-distil-autograph-collection/overview/) (Whiskey Row) - Valet EV Charging ($50/night)
+    *   [AC Hotel NuLu](https://www.marriott.com/en-us/hotels/sdfac-ac-hotel-louisville-downtown/overview/) (East Market)
+    *   [Moxy Downtown](https://www.marriott.com/en-us/hotels/sdfox-moxy-louisville-downtown/overview/) (Fun/Value)
+
+## 🍔 Food & Drink Shortlist
+*   **The Road**:
+    *   [Barrelhouse BBQ](https://www.barrelhousebbq.com/) (Lynchburg)
+    *   [The Kitchen Table](https://www.visitthekitchentable.com/) (Jim Beam)
+*   **Louisville**:
+    *   [Repeal Oak Fired Steakhouse](https://repeallouisville.com/) (High End)
+    *   [Mayan Cafe](https://mayancafelouisville.com/) (NuLu Classic)
+    *   [Bar Vetti](https://barvetti.com/) (Pizza/Pasta)
 
 ## 🎒 Packing List (Weather Aware)
 *   ✅ **Rain Gear**: Light rain jacket/umbrella (Rain forecast for Fri/Sat/Sun).
