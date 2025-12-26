@@ -232,6 +232,13 @@ def parse_markdown_to_data(lines):
             current_day = None
             continue
 
+        # Shortlists section headers (standalone bold text, not bullets)
+        if current_list is not None and not line.startswith('*') and line.startswith('**') and line.endswith('**'):
+            # This is a section header like "**Nashville (Fri Night)**"
+            header_text = line.strip('*').strip()
+            current_list.append(f'<br><strong>{header_text}</strong>')
+            continue
+
         # List Items parsing (generic for all shortlists)
         if current_list is not None:
              # Check raw_line for bullet patterns (before stripping)
